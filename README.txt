@@ -1,4 +1,4 @@
-The Drupal plugin extends Z-Ray to display detailed information on all the elements working under the Drupal hood. You’ll be able to see a list the modules loaded on your page, together with the hooks and actions they invoked during the request. In addition, you’ll be able to see a list of functions called during the request and all the forms used on the page. Last but not least - Z-Ray will display useful information on the current user.
+The Drupal plugin extends Z-Ray to display detailed information on all the elements working under the Drupal hood. You'll be able to see a list the modules loaded on your page, together with the hooks and actions they invoked during the request. In addition, you'll be able to see a list of functions called during the request and all the forms used on the page. Last but not least - Z-Ray will display useful information on the current user.
 
 
 - **Called Functions**: provides a list of all the called Drupal functions on the page. Get the function name together with the name and values for any parameter passed for the function.
