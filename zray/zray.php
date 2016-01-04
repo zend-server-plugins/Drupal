@@ -83,7 +83,7 @@ class ZRayExtensionDrupal {
 	
 	public function RetrieveForm($context, & $storage) {
 		$formName = $context['functionArgs'][0];
-	 	$formId = $context['functionArgs'][1]['build_info']['form_id'];
+	 	$formId = isset($context['functionArgs'][1]['build_info']['form_id']) ? $context['functionArgs'][1]['build_info']['form_id'] : '';
 	 	$baseFormId = isset($context['functionArgs'][1]['build_info']['base_form_id']) ? $context['functionArgs'][1]['build_info']['base_form_id'] : '';
 	 	$cache = $context['functionArgs'][1]['cache'];
 	 	$method = $context['functionArgs'][1]['method'];
